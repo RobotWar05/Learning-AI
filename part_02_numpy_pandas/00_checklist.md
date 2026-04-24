@@ -1,26 +1,45 @@
 # Checklist NumPy và Pandas
 
-## NumPy
+## NumPy cơ bản
 
-- [ ] Tạo array từ list.
-- [ ] Hiểu `shape`, `ndim`, `dtype`.
+- [ ] Tạo NumPy array từ list.
+- [ ] Kiểm tra `shape`, `ndim`, `dtype`.
 - [ ] Truy cập phần tử bằng index.
-- [ ] Dùng slicing.
-- [ ] Tính `mean`, `min`, `max`, `std`.
-- [ ] Hiểu vectorized operation.
+- [ ] Slicing mảng 1 chiều và 2 chiều.
+- [ ] Dùng boolean mask để lọc dữ liệu.
+- [ ] Thực hiện phép toán vectorized.
+- [ ] Hiểu broadcasting khi cộng/trừ với scalar hoặc vector.
+- [ ] Tính `sum`, `mean`, `max`, `min`.
+- [ ] Hiểu `axis=0` là theo cột, `axis=1` là theo hàng trong mảng 2 chiều.
+- [ ] Dùng `reshape`.
+- [ ] Dùng `concatenate`.
+- [ ] Tạo dữ liệu ngẫu nhiên bằng `np.random`.
 
-## Pandas
+## Pandas cơ bản
 
-- [ ] Tạo DataFrame từ dict.
-- [ ] Đọc CSV ở mức cơ bản.
-- [ ] Chọn một cột và nhiều cột.
+- [ ] Tạo `Series`.
+- [ ] Tạo `DataFrame` từ dict.
+- [ ] Đọc CSV bằng `read_csv`.
+- [ ] Xem dữ liệu bằng `head`.
+- [ ] Xem thông tin bằng `info`.
+- [ ] Xem thống kê bằng `describe`.
+- [ ] Chọn một cột.
+- [ ] Chọn nhiều cột.
 - [ ] Lọc dòng theo điều kiện.
-- [ ] Xử lý missing values bằng `isna`, `fillna`, `dropna`.
-- [ ] Dùng `groupby` để thống kê.
+- [ ] Dùng `loc` theo label.
+- [ ] Dùng `iloc` theo vị trí.
+- [ ] Thêm cột mới.
+- [ ] Sắp xếp bằng `sort_values`.
+- [ ] Tính thống kê theo nhóm bằng `groupby`.
+- [ ] Gộp bảng bằng `merge`.
+- [ ] Kiểm tra missing values bằng `isnull`.
+- [ ] Xử lý missing values bằng `dropna` hoặc `fillna`.
+- [ ] Export CSV bằng `to_csv`.
 
 ## Sẵn sàng cho ML
 
-- [ ] Tách feature và label.
-- [ ] Kiểm tra số dòng, số cột.
+- [ ] Tách feature `X` và label `y`.
+- [ ] Kiểm tra số dòng/số cột.
 - [ ] Kiểm tra phân bố label.
-- [ ] Chuẩn hóa dữ liệu số ở mức cơ bản.
+- [ ] Chuẩn hóa dữ liệu số.
+- [ ] Phát hiện cột thiếu dữ liệu.

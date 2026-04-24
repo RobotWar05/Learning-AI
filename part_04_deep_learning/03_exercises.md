@@ -1,14 +1,41 @@
 # Bài tập Deep Learning
 
-1. Giải thích weight và bias bằng một ví dụ tuyến tính.
-2. Vì sao cần activation function?
-3. Loss function dùng để làm gì?
-4. Optimizer cập nhật thành phần nào của model?
-5. Vẽ training loop cơ bản.
-6. Phân biệt epoch và batch.
+## Input/output shape
 
-## Câu hỏi tự kiểm tra
+1. Layer `nn.Linear(4, 3)` nhận input có bao nhiêu feature?
+2. Nếu batch size là 5, output shape của layer trên là gì?
+3. Vì sao cần kiểm tra shape trước khi train?
 
-1. Forward pass khác backward pass như thế nào?
-2. Learning rate quá lớn gây vấn đề gì?
-3. Vì sao cần validation set?
+## Activation function
+
+1. ReLU làm gì?
+2. Sigmoid thường đưa output về khoảng nào?
+3. Softmax dùng trong trường hợp nào?
+
+## Loss function
+
+1. Bài toán regression nên dùng MSE hay CrossEntropy?
+2. Bài toán phân loại 3 lớp nên dùng loss nào?
+3. Vì sao loss thấp trên train chưa đủ để kết luận model tốt?
+
+## Training loop blanks
+
+Điền các bước còn thiếu:
+
+```python
+optimizer.________()
+loss.________()
+optimizer.________()
+```
+
+## So sánh kiến trúc
+
+1. CNN phù hợp với dữ liệu gì?
+2. RNN/LSTM phù hợp với dữ liệu gì?
+3. Transformer mạnh ở điểm nào?
+
+## Learning rate
+
+1. Learning rate quá cao gây vấn đề gì?
+2. Learning rate quá thấp gây vấn đề gì?
+3. Nếu loss dao động mạnh, nên kiểm tra gì?

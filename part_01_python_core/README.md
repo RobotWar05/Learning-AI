@@ -52,6 +52,7 @@ Sau phần này, bạn cần đọc hiểu và viết được các đoạn code
 
 - [00_checklist.md](00_checklist.md)
 - [01_must_memorize_code.py](01_must_memorize_code.py)
+- [01_must_memorize_code.md](01_must_memorize_code.md)
 - [02_exercises.md](02_exercises.md)
 - [03_notes.md](03_notes.md)
 - [04_quick_review.md](04_quick_review.md)

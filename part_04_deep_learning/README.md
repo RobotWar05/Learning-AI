@@ -2,31 +2,50 @@
 
 ## Mục tiêu
 
-Hiểu neural network, loss, optimizer và code PyTorch cơ bản ở mức đọc hiểu và sửa được ví dụ đơn giản.
+Hiểu neural network ở mức nền tảng, đọc được training loop PyTorch cơ bản và phân biệt được CNN, RNN/LSTM, Transformer trong bài thi lý thuyết.
 
-## Kiến thức sẽ học
+## DL khác ML như thế nào
 
-- Neuron, layer, weight, bias.
-- Activation function.
-- Forward pass và backward pass.
+Machine Learning truyền thống thường cần feature engineering rõ ràng. Deep Learning học biểu diễn dữ liệu qua nhiều layer, đặc biệt mạnh với ảnh, âm thanh, chuỗi và ngôn ngữ.
+
+## Neural network basic architecture
+
+Một neural network thường gồm:
+
+- Input layer.
+- Hidden layers.
+- Activation functions.
+- Output layer.
 - Loss function.
 - Optimizer.
-- Epoch, batch, learning rate.
-- PyTorch tensor, model, training loop.
 
-## Tài liệu chính
+## Khái niệm trọng tâm
 
-- [PyTorch Beginner Basics](https://docs.pytorch.org/tutorials/beginner/basics/intro.html)
-- [TensorFlow Beginner Quickstart](https://www.tensorflow.org/tutorials/quickstart/beginner)
+- Neuron, weight, bias.
+- Activation function.
+- Loss function.
+- Optimizer.
+- Forward propagation.
+- Backpropagation.
+- Epoch, batch size, learning rate.
+- CNN cho ảnh.
+- RNN/LSTM cho chuỗi.
+- Transformer cho ngôn ngữ và LLM.
+- PyTorch basic workflow.
 
 ## File trong phần này
 
-- `00_checklist.md`
-- `01_theory_notes.md`
-- `02_pytorch_basic_templates.py`
-- `03_exercises.md`
-- `04_quick_review.md`
+- [Checklist](./00_checklist.md)
+- [Lý thuyết Deep Learning](./01_theory_notes.md)
+- [Template PyTorch](./02_pytorch_basic_templates.py)
+- [Giải thích template PyTorch](./02_pytorch_basic_templates.md)
+- [Bài tập](./03_exercises.md)
+- [Ôn nhanh](./04_quick_review.md)
 
-## Trạng thái
+## Thứ tự học
 
-Chưa triển khai chi tiết.
+1. Học neuron, layer, activation.
+2. Học loss, optimizer, gradient descent.
+3. Học forward/backward ở mức trực giác.
+4. Đọc template PyTorch.
+5. So sánh CNN, RNN/LSTM, Transformer.

@@ -1,10 +1,18 @@
 # Checklist RAG và Chatbot
 
-- [ ] Hiểu chatbot nhận input và trả response.
-- [ ] Hiểu RAG dùng retrieval để bổ sung ngữ cảnh.
-- [ ] Biết document ingestion là gì.
-- [ ] Biết chunking là gì.
-- [ ] Biết embedding biến text thành vector.
-- [ ] Biết vector search tìm đoạn liên quan.
-- [ ] Biết prompt cần chứa câu hỏi và context.
-- [ ] Biết chatbot cần logging và evaluation.
+- [ ] Hiểu document loading.
+- [ ] Hiểu chunking.
+- [ ] Biết chunk size ảnh hưởng retrieval.
+- [ ] Biết overlap dùng để giữ ngữ cảnh.
+- [ ] Hiểu embedding.
+- [ ] Hiểu vector database.
+- [ ] Hiểu retrieval.
+- [ ] Biết reranking ở mức khái niệm.
+- [ ] Biết prompt construction.
+- [ ] Hiểu generation.
+- [ ] Biết citation/source dùng để kiểm chứng.
+- [ ] Biết hallucination control.
+- [ ] Hiểu chatbot backend.
+- [ ] Hiểu conversation memory.
+- [ ] Biết tool calling ở mức khái niệm.
+- [ ] Biết evaluation cho chatbot.
